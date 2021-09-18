@@ -1,0 +1,26 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.convertor {
+  text-align: center;
+  border: coral 3px solid;
+  border-radius: 10px;
+  background-color: lightcoral;
+  width: 350px;
+  height: 85px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+button {
+  margin: 10px;
+  background-color: #ff5956;
+  border-radius: 5px;
+  border: #fd312e 2px solid;
+  font-family: "Montserrat", sans-serif;
+}
