@@ -1,26 +1,39 @@
 body {
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
-.convertor {
-  text-align: center;
-  border: coral 3px solid;
-  border-radius: 10px;
-  background-color: lightcoral;
-  width: 350px;
-  height: 85px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+.container {
+  width: 400px;
+  border:#DC143C 2px solid;
+  border-radius: 15px;
+  background-color: #c8385a;
+  margin-bottom: 20px;
 }
 
 button {
+  width: 200px;
+  height: 50px;
   margin: 10px;
+  margin-top: 0;
+  margin-left: calc((100% - 200px) / 2);
   background-color: #ff5956;
   border-radius: 5px;
   border: #fd312e 2px solid;
   font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
+
+input {
+  margin-left: calc((100% - 200px) / 2);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+fieldset {
+  text-align: end;
+  border: #DC143C 1px dashed;
+  border-radius: 5px;
+}
+
