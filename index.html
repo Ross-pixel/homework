@@ -10,40 +10,22 @@
 </head>
 
 <body>
-
-  <div class="convertor">
-    <label>Valute in:
-            <select class="filter value-setting-in">
-              <option value="ru" selected>&#8381;</option>
-              <option value="us">&#36;</option>
-              <option value="eu">&#8364;</option>
-              <option value="uk">&#163;</option>
-              <option value="jap">&#165;</option>
-              <option value="bit">&#8383;</option>
-            </select>
-          </label>
-    <label>
-      <input type="text" placeholder="Input"></label>
-    <br>
-    <button class="convert" id="convertor-but">Convert</button>
-    <br>
-    <label>Valute out:
-            <select class="filter value-setting-out">
-              <option value="ru" selected>&#8381;</option>
-              <option value="us">&#36;</option>
-              <option value="eu">&#8364;</option>
-              <option value="uk">&#163;</option>
-              <option value="jap">&#165;</option>
-              <option value="bit">&#8383;</option>
-            </select>
-          </label>
-    <label>
-      <input class="output" type="text" disabled></label>
-  </div>
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <section>
+    <div class="container info-panel">
+      <h1 class="head-name">Ваша визитка</h1>
+      <p class="name">Имя</p>
+      <p class="surname">Фамилия</p>
+      <p class="phone">Номер телефона</p>
+      <p class="email">Емейл</p>
+    </div>
+    <button class="but">Заполнить</button>
+    <div class="container" style="background-color: #d1607b;">
+      <input>
+      <input>
+      <input>
+      <input>
+    </div>
+  </section>
 </body>
 
 </html>
