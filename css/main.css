@@ -2,38 +2,19 @@ body {
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
-.container {
-  width: 400px;
-  border:#DC143C 2px solid;
-  border-radius: 15px;
-  background-color: #c8385a;
-  margin-bottom: 20px;
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  border: #555555 1px dashed;
 }
 
-button {
-  width: 200px;
-  height: 50px;
-  margin: 10px;
-  margin-top: 0;
-  margin-left: calc((100% - 200px) / 2);
-  background-color: #ff5956;
-  border-radius: 5px;
-  border: #fd312e 2px solid;
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+.square {
+  height: 80px;
+  width: 80px;
 }
 
-input {
-  margin-left: calc((100% - 200px) / 2);
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-fieldset {
-  text-align: end;
-  border: #DC143C 1px dashed;
-  border-radius: 5px;
-}
 
